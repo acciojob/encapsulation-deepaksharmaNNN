@@ -2,7 +2,7 @@ package com.driver;
 
 public class Main {
     public static void main(String[] args) {
-        RWOnly rwObject = new RWOnly("Initial Value");
+        RWOnly rwObject = new RWOnly();
         // Attempting to set a value directly (error expected)
         // rwObject.name = "DirectAccess"; // This will result in a compilation error
         // Attempting to print the value directly (error expected)
